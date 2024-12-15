@@ -176,6 +176,8 @@ class Logic(QMainWindow, Ui_MainWindow):
         :return: None
         """
         self.line_id.clear()
+        self.radioButton_jane.setEnabled(False)
+        self.radioButton_john.setEnabled(False)
         self.radioButton_john.setChecked(False)
         self.radioButton_jane.setChecked(False)
         self.label_already_voted.setVisible(False)
